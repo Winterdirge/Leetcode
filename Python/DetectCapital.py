@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 502 Detect Capital
 给定一个单词，你需要判断单词的大写使用是否正确。

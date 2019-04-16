@@ -1,3 +1,4 @@
+# coding=utf-8
 # 给定一个矩阵 A， 返回 A 的转置矩阵。
 class Solution(object):
     def transpose(self, A):

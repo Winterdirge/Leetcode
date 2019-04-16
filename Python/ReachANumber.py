@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 754. Reach a Number
 在一根无限长的数轴上，你站在0的位置。终点在target的位置。

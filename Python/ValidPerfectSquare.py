@@ -1,3 +1,4 @@
+# coding=utf-8
 # Given a positive integer num, write a function which returns True
 # if nums is a perfect square else False
 # Do not use build-in library function such as `sqrt`

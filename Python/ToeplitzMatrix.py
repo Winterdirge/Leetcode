@@ -1,3 +1,4 @@
+# coding=utf-8
 # 766. Toeplitz Matrix
 """
 A matrix is Toeplitz if every diagonal from top-left to bottom-right 

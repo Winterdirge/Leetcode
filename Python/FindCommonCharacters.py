@@ -1,3 +1,4 @@
+# coding=utf-8
 """
 1002. Find Commonn Characters
 Given an array A of strings made only from lowercase letters, 
