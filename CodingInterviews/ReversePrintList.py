@@ -11,7 +11,7 @@ def printListReversingly(head):
     def helper(head, res)
         if not head:
             return None
-        help(head.next)
+        helper(head.next, res)
         res.append(head.val)
 
     res = []
