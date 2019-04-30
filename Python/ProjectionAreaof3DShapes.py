@@ -10,9 +10,18 @@
 class Solution(object):
     def projectionArea(self, grid):
         # 俯视图直接所有元素个数
-        lookDown = sum([len(row) for row in grid])
         # 左边视图找出x相同的元素最大值
-        lookLeft = sum([max(grid[i][j] for j in len(grid[i]) for i in len(grid))])
         # 右边找出y相同元素最大值
-        lookRight = sum([max(grid[j][i] for j in len(grid[i]) for i in len(grid))])
-        return lookDown + lookLeft + lookRight
+        N = len(grid)
+        res = 0
+
+        for i in range(N):
+            rowMax = 0
+            colMax = 0
+            for j in range(N):
+                if grid[i][j]:
+                    res += 1
+                rowMax = max(rowMax, grid[i][j])
+                colMax = max(colMax, grid[j][i])
+            res += rowMax + colMax
+        return res
