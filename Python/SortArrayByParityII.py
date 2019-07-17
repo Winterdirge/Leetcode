@@ -1,3 +1,4 @@
+# coding=utf-8
 # 922. Sort Array By Parity II
 """
 给定一个非负整数数组 A， A 中一半整数是奇数，一半整数是偶数。

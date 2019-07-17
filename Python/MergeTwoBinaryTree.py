@@ -1,3 +1,4 @@
+# coding=utf-8
 # 合并二叉树
 class TreeNode(object):
     def __init__(self, x):
