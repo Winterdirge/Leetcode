@@ -9,6 +9,8 @@
 """
 class Solution(object):
     def numDecodings(self, s):
+        if s[0]=='0':
+            return 0
         n = len(s)
         dp = [0] * (n+1)
         dp[0], dp[1] = 1, 1
